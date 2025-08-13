@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url(./image/abcd.webp);
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 10000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: palevioletred;
+    gap: 300px;
+    height: 100px;
+    padding-top: 50px;
+    color: blanchedalmond;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.hero-text {
+    max-width: 1000px;
+    margin-top: 400px;
+    font-family: fantasy;
+    font-size: xx-large;
+    color: black;
+}
+
