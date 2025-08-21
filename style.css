@@ -6,13 +6,12 @@
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 0 auto;
-    background-image: url(./image/abcd.webp);
+    background-image: url(./image/bye.jpg);
     display:flex;
     flex-direction: column;
-    height: 100%;
-    max-width: 10000px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,29 +19,136 @@
 nav {
     display: flex;
     justify-content: flex-end;
-    gap: 40px;
+    gap: 200px;
     font-weight: bold;
     padding: 20px;
-    background-color: palevioletred;
-    gap: 300px;
-    height: 100px;
-    padding-top: 50px;
-    color: blanchedalmond;
+    height: 80px;
+    background-color:  rgb(8, 8, 44);
 }
-
+nav a{
+    /* text-shadow: 1.5px 1.5px black; */
+    text-decoration: none;
+    color: white;
+}
+.name a{
+    margin-right: 350px;
+    font-size: 20px;
+}
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 100px;
+    
+    /* justify-content: space-between; */
+
+    padding: 40px;
 }
 
 .hero-text {
-    max-width: 1000px;
-    margin-top: 400px;
+    margin-top: 200px;
     font-family: fantasy;
-    font-size: xx-large;
-    color: black;
+    color: white;
+    border: 1 px solid white;
+    /* text-shadow: 1.5px  2.5px  black; */
+    /* background-color: rgb(8, 8, 44); */
+    /* border-radius: 30px; */
+    width: 350px;
+    font-size: 17px;
+    /* background-color: rgb(8, 8, 44); */
 }
 
+.footer-1{
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 190px;
+}
+
+
+.social-icons img{
+    margin: 10px;
+    width: 30px;
+    color: white;
+}
+
+.copyright{
+    font-size: 15px;
+    font-weight: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gold;
+}
+
+
+
+.hero-text-1{
+    margin-top: 10px;
+    color: white;
+    width: 1000px;
+    font-size: xx-large;
+    background-color:rgb(8, 8, 44) ;
+    border-radius: 20px;
+}
+
+.about-us{
+   gap: 90px;
+   font-size: 20px;
+   color: white;
+   background-color: rgb(8, 8, 44);
+   border-radius: 50px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 60px;
+}
+
+
+.footer-2{
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+
+.social-icons-2 img{
+    margin: 10px;
+    width: 70px;
+    color: white;
+}
+
+.copyright-2{
+    font-size: 15px;
+    font-weight: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(8, 8, 44);
+}
+
+.container-2{
+    width: 100%;
+    background-color: skyblue;
+    height: 100%;
+    padding: 25px 100px; 
+}
+
+.posts{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+ .post-card{
+    background-color: rgba(198, 168, 2, 0.977);
+    border-radius: 30px; 
+    padding: 50px; 
+}     
+
+.post-card img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.post-content{
+    font-size: 20px;
+    font-weight: 700px;
+    margin-bottom: 1rem;
+    color: black;
+}
