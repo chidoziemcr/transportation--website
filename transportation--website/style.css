@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+    background-image: url(./image/bye.jpg);
+    display:flex;
+    flex-direction: column;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 150px;
+    font-weight: bold;
+    padding: 20px;
+    height: 80px;
+    background-color:  rgb(8, 8, 44);
+}
+nav a{
+    /* text-shadow: 1.5px 1.5px black; */
+    text-decoration: none;
+    color: white;
+}
+.name a{
+    margin-right: 350px;
+    font-size: 20px;
+}
+.hero {
+    
+    /* justify-content: space-between; */
+
+    padding: 40px;
+}
+
+.hero-text {
+    margin-top: 200px;
+    font-family: fantasy;
+    color: white;
+    border: 1 px solid white;
+    /* text-shadow: 1.5px  2.5px  black; */
+    /* background-color: rgb(8, 8, 44); */
+    /* border-radius: 30px; */
+    width: 350px;
+    font-size: 17px;
+    /* background-color: rgb(8, 8, 44); */
+}
+
+.footer-1{
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 190px;
+}
+
+
+.social-icons img{
+    margin: 10px;
+    width: 30px;
+    color: white;
+}
+
+.copyright{
+    font-size: 15px;
+    font-weight: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+
+.hero-text-1{
+    margin-top: 10px;
+    color: black;
+    width: 1000px;
+    font-size: xx-large;
+    border-radius: 20px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.about-us{
+   gap: 90px;
+   font-size: 20px;
+   color: white;
+   background-color: rgb(8, 8, 44);
+   border-radius: 50px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 60px;
+}
+
+
+.footer-2{
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+
+.social-icons-2 img{
+    margin: 10px;
+    width: 70px;
+    color: white;
+}
+
+.copyright-2{
+    font-size: 15px;
+    font-weight: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(8, 8, 44);
+}
+
+.container-2{
+    width: 100%;
+    background-color: rgb(249, 253, 255);
+    height: 100%;
+    padding: 25px 100px; 
+}
+
+.posts{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+ .post-card{
+    background-color: rgb(26, 19, 72);
+    border-radius: 30px; 
+    padding: 50px; 
+}     
+
+.post-card h1{
+    color: gold;
+}
+
+.post-card img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.post-content{
+    font-size: 20px;
+    font-weight: 700px;
+    margin-bottom: 1rem;
+    color: rgb(255, 249, 249);
+}
